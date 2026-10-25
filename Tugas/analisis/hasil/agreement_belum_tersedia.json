@@ -1,0 +1,27 @@
+{
+  "alignment": {
+    "n": 0,
+    "raw_agreement": null,
+    "kappa": null
+  },
+  "gaming": {
+    "n": 0,
+    "raw_agreement": null,
+    "kappa": null
+  },
+  "clarification": {
+    "n": 0,
+    "raw_agreement": null,
+    "kappa": null
+  },
+  "unsafe": {
+    "n": 0,
+    "raw_agreement": null,
+    "kappa": null
+  },
+  "approval": {
+    "n": 0,
+    "raw_agreement": null,
+    "kappa": null
+  }
+}

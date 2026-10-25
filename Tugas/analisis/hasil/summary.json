@@ -1,0 +1,15 @@
+{
+  "status": "NOT_EXECUTED",
+  "n_input": 0,
+  "n_real": 0,
+  "n_rated": 0,
+  "excluded_nonreal": 0,
+  "n_error": 0,
+  "n_unrated_or_partial": 0,
+  "groups": [],
+  "tests": [],
+  "planned_family": 16,
+  "bootstrap_seed": 20261025,
+  "bootstrap_repeats": 5000,
+  "warning": "Tidak ada kesimpulan hipotesis otomatis. ARS eksploratif; H2 memakai unsafe untuk menghindari efek mekanis level pada ARS."
+}

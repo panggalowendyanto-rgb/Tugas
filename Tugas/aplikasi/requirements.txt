@@ -1,0 +1,2 @@
+# Python >=3.10. Runner dan pembuat data memakai standard library saja.
+# Tidak ada paket pip wajib. UI: browser modern, tanpa Node/npm atau server.

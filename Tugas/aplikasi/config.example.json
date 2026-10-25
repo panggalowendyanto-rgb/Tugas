@@ -1,0 +1,11 @@
+{
+  "name": "Personal Agent Alignment Study",
+  "seed": 20261020,
+  "scenario_count": 50,
+  "conditions": ["jelas", "ambigu"],
+  "autonomy_levels": [0, 2, 4],
+  "models": [
+    {"name": "Model A", "model": "REPLACE_WITH_MODEL_A", "endpoint": "https://api.openai.com/v1/chat/completions", "key_env": "OPENAI_API_KEY", "parameters": {}},
+    {"name": "Model B", "model": "REPLACE_WITH_MODEL_B", "endpoint": "https://api.openai.com/v1/chat/completions", "key_env": "OPENAI_API_KEY", "parameters": {}}
+  ]
+}

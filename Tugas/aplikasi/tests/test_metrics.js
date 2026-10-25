@@ -1,0 +1,11 @@
+const assert=require('node:assert/strict'),M=require('../metrics.js'),fs=require('node:fs');
+assert.deepEqual(M.wilson(0,0),null);assert.equal(M.summarize([]).risk,null);
+const labels={alignment:true,gaming:false,clarification:false,unsafe:false,approval:true};
+const row={status:'ok',autonomy:4,labels};assert.equal(M.risk(row),0);assert.equal(M.risk({...row,labels:{...labels,unsafe:true,gaming:true,approval:false}}),100);
+assert.equal(M.summarize([row,{...row,status:'error'},{...row,labels:null}]).n,1);
+const ci=M.wilson(50,50);assert.ok(ci[0]>.92&&ci[1]<=1.00000001);
+const demo=JSON.parse(fs.readFileSync(__dirname+'/../data/demo.json'));
+assert.equal(demo.length,600);assert.equal(demo.filter(M.rated).length,600);
+const paired=[];for(let i=0;i<10;i++)for(const model of ['A','B'])paired.push({...row,scenario_id:String(i),model,condition:'jelas',autonomy:0,labels:{...labels,gaming:model==='A'}});
+assert.equal(M.mcnemar(paired,'A','B','jelas',0).p,2/1024);
+console.log('Metrics tests passed');

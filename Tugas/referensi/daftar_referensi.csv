@@ -1,0 +1,27 @@
+﻿nomor,penulis,judul,venue,tahun,url,jenis,ilmiah,recent_2022_2026
+1,D. Silver et al.,"A general reinforcement learning algorithm that masters chess, shogi, and Go through self-play","Science, vol. 362, no. 6419, pp. 1140-1144",2018,https://doi.org/10.1126/science.aar6404,Jurnal,True,False
+2,D. Silver et al.,Mastering the game of Go without human knowledge,"Nature, vol. 550, pp. 354-359",2017,https://doi.org/10.1038/nature24270,Jurnal,True,False
+3,D. Amodei et al.,Concrete Problems in AI Safety,arXiv:1606.06565,2016,https://arxiv.org/abs/1606.06565,Preprint,True,False
+4,P. F. Christiano et al.,Deep reinforcement learning from human preferences,Advances in Neural Information Processing Systems 30,2017,https://arxiv.org/abs/1706.03741,Konferensi,True,False
+5,J. Kaplan et al.,Scaling Laws for Neural Language Models,arXiv:2001.08361,2020,https://arxiv.org/abs/2001.08361,Preprint,True,False
+6,J. Hoffmann et al.,Training Compute-Optimal Large Language Models,Advances in Neural Information Processing Systems 35,2022,https://arxiv.org/abs/2203.15556,Konferensi,True,True
+7,L. Ouyang et al.,Training language models to follow instructions with human feedback,Advances in Neural Information Processing Systems 35,2022,https://arxiv.org/abs/2203.02155,Konferensi,True,True
+8,Y. Bai et al.,Constitutional AI: Harmlessness from AI Feedback,arXiv:2212.08073,2022,https://arxiv.org/abs/2212.08073,Preprint,True,True
+9,"L. Gao, J. Schulman, and J. Hilton",Scaling Laws for Reward Model Overoptimization,Proceedings of the 40th International Conference on Machine Learning (ICML),2023,https://arxiv.org/abs/2210.10760,Konferensi,True,True
+10,S. Yao et al.,ReAct: Synergizing Reasoning and Acting in Language Models,International Conference on Learning Representations (ICLR),2023,https://arxiv.org/abs/2210.03629,Konferensi,True,True
+11,T. Schick et al.,Toolformer: Language Models Can Teach Themselves to Use Tools,Advances in Neural Information Processing Systems 36,2023,https://arxiv.org/abs/2302.04761,Konferensi,True,True
+12,X. Liu et al.,AgentBench: Evaluating LLMs as Agents,International Conference on Learning Representations (ICLR),2024,https://arxiv.org/abs/2308.03688,Konferensi,True,True
+13,S. Zhou et al.,WebArena: A Realistic Web Environment for Building Autonomous Agents,International Conference on Learning Representations (ICLR),2024,https://arxiv.org/abs/2307.13854,Konferensi,True,True
+14,T. T. Wang et al.,Adversarial Policies Beat Superhuman Go AIs,Proceedings of the 40th International Conference on Machine Learning (ICML),2023,https://arxiv.org/abs/2211.00241,Konferensi,True,True
+15,Y. Ruan et al.,Identifying the Risks of LM Agents with an LM-Emulated Sandbox,International Conference on Learning Representations (ICLR),2024,https://arxiv.org/abs/2309.15817,Konferensi,True,True
+16,K. Grace et al.,Thousands of AI Authors on the Future of AI,"Journal of Artificial Intelligence Research, vol. 84, article 9",2025,https://doi.org/10.1613/jair.1.19087,Jurnal; preprint 2024,True,True
+17,"R. Ngo, L. Chan, and S. Mindermann",The Alignment Problem from a Deep Learning Perspective,International Conference on Learning Representations (ICLR),2024,https://arxiv.org/abs/2209.00626,Konferensi,True,True
+18,E. Debenedetti et al.,AgentDojo: A Dynamic Environment to Evaluate Prompt Injection Attacks and Defenses for LLM Agents,"Advances in Neural Information Processing Systems 37, Datasets and Benchmarks Track",2024,https://arxiv.org/abs/2406.13352,Konferensi,True,True
+19,Google DeepMind,"AlphaZero: Shedding new light on chess, shogi, and Go","Blog riset primer, 6 Desember",2018,https://deepmind.google/blog/alphazero-shedding-new-light-on-chess-shogi-and-go/,Sumber teknis tambahan,False,False
+20,European Parliament and Council,Regulation (EU) 2024/1689 (Artificial Intelligence Act),Official Journal of the European Union,2024,https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng,Hukum,False,False
+21,European Parliament and Council,"Regulation (EU) 2026/1744, simplification of the implementation of harmonised rules on artificial intelligence",Official Journal of the European Union,2026,https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32026R1744,Hukum,False,False
+22,European Commission,The enforcement framework of the AI Act,"Shaping Europe’s digital future, diakses 25 Oktober 2026",2026,https://digital-strategy.ec.europa.eu/en/policies/enforcement-ai-act,Sumber kebijakan,False,False
+23,NIST,Artificial Intelligence Risk Management Framework (AI RMF 1.0),NIST AI 100-1,2023,https://doi.org/10.6028/NIST.AI.100-1,Kerangka resmi,False,False
+24,NIST,Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile,NIST AI 600-1,2024,https://doi.org/10.6028/NIST.AI.600-1,Kerangka resmi,False,False
+25,The White House,America’s AI Action Plan,Juli,2025,https://www.whitehouse.gov/wp-content/uploads/2025/07/Americas-AI-Action-Plan.pdf,Sumber kebijakan,False,False
+26,Republik Indonesia,Undang-Undang Nomor 27 Tahun 2022 tentang Pelindungan Data Pribadi,"LN RI 2022 No. 196, TLN RI No. 6820",2022,https://peraturan.bpk.go.id/Details/229798/uu-no-27-tahun-2022,Hukum,False,False

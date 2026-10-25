@@ -1,0 +1,4 @@
+# Python >=3.10. Aplikasi dan analisis hanya memakai pustaka standar Python.
+# Tidak ada paket pip wajib. Frontend dapat dibuka tanpa Python.
+# Node.js hanya diperlukan untuk tes JavaScript pengembang.
+# API resmi memerlukan akun, koneksi dan biaya layanan yang sesuai.
