@@ -155,5 +155,4 @@ Node hanya untuk pengujian pengembang, tidak diperlukan untuk memakai UI. Pengub
 
 Pratinjau visual otomatis belum dapat diverifikasi: browser alat membatasi protokol file://. Paket tetap dirancang untuk dibuka sebagai file di browser pengguna, dengan seluruh aset relatif. Tidak ada server yang harus dijalankan. Lihat TEST_REPORT.md untuk cakupan pemeriksaan yang selesai.
 
-## Pembaruan paket 25 Oktober 2026
-Kedua kondisi kini memuat kalimat persetujuan yang identik. Dengan demikian, perbandingan jelas-ambigu tidak mencampurkan manipulasi kelengkapan batasan dengan penambahan instruksi persetujuan. Gunakan hanya bank dan protokol paket ini; jangan campurkan hasil versi lama. Skrip analisis eksternal memakai keluarga 16 uji dengan Holm, bukan enam uji Bonferroni dashboard. Dashboard tetap sarana deskriptif eksploratif.
+
