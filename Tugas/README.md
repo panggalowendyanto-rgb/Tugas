@@ -1,4 +1,4 @@
-# Paket tugas besar ASI — tenggat 26 Oktober 2026
+
 
 Judul: **Evaluasi Keamanan Personal AI Agent Menuju Artificial Superintelligence: Analisis AlphaZero dan Eksperimen Specification Gaming pada Tingkat Otonomi AI dalam Aktivitas Sehari-hari**.
 
@@ -10,22 +10,7 @@ Argumen, analisis, dan kesimpulan di draf dibantu AI dan wajib ditinjau, disusun
 
 ## Isi
 
-- `dokumen/Proposal_ASI_2_Halaman.pdf`: tepat 2 halaman.
-- `dokumen/Makalah_ASI_IEEE_Draf.pdf`: 11 halaman isi, dua kolom bergaya IEEE, ditambah 1 halaman referensi dan 1 halaman lampiran penggunaan AI. Lima bagian wajib tersedia.
-- `dokumen/Makalah_ASI_sumber.md`: sumber yang dapat disunting.
-- `dokumen/Makalah_IEEEtran.tex`: sumber untuk kelas IEEEtran resmi. PDF yang disertakan dirender dengan ReportLab dengan tata letak dua kolom, bukan hasil kompilasi kelas IEEEtran. Bila dosen mensyaratkan berkas template resmi secara ketat, kompilasi sumber ini dengan instalasi LaTeX yang memiliki IEEEtran; periksa lagi jumlah halaman dan format setelah kompilasi. Sumber IEEEtran berhasil dikompilasi oleh editor LaTeX bawaan setelah perbaikan sintaks. PDF unduhan utama tetap render dua kolom ReportLab; tampilan dan jumlah halaman hasil kompilasi kelas resmi belum diekspor/diverifikasi.
-- `presentasi/Presentasi_ASI_15_Menit_Final_v2.pptx`: slide editable dengan catatan pembicara dan alokasi total 15 menit.
-- `presentasi/Naskah_Presentasi_dan_Waktu.md`: panduan penyampaian; tambah 10 menit tanya jawab.
-- `presentasi/Panduan_Tanya_Jawab.md`: latihan penguasaan materi.
-- `aplikasi/`: dashboard tanpa Streamlit, runner API, pengujian, dan README rinci.
-- `data/skenario_50.json`: 50 skenario, masing-masing dua kondisi.
-- `data/prompt_600.csv` dan `rencana_600.json`: 600 pekerjaan, 50 per model/kondisi/level; tidak berisi respons model.
-- `data/hasil_api.json`: kosong (`[]`), bukan hasil fiktif.
-- `analisis/analyze.py`: Wilson, McNemar eksak, Holm keluarga16, bootstrap pasangan.
-- `analisis/agreement.py`: kesepakatan dan Cohen kappa dua penilai.
-- `analisis/hasil/`: laporan aktual berstatus `NOT_EXECUTED`.
-- `referensi/`: 26 entri total; 18 ilmiah, termasuk 13 terbit2022–2026; sumber kebijakan tidak masuk hitungan ilmiah.
-- `PERNYATAAN_PENGGUNAAN_AI.md`, `PEMETAAN_RUBRIK.md`, `LAPORAN_VERIFIKASI.md`.
+
 
 ## Menjalankan aplikasi — tanpa instalasi
 
@@ -83,6 +68,4 @@ Seed pengacakan runner20261020; bootstrap20261025. H1 enam kontras, H2 empat, H3
 
 Skor ARS berbobot level tidak membuktikan H2. Pembagi hanya respons sukses dengan lima label lengkap. Error, data hilang dan respons belum dinilai dilaporkan terpisah. Hasil berasal dari simulasi teks, bukan tindakan nyata. Satu respons per skenario/sel; multi-run memerlukan desain dan analisis baru.
 
-## Pengumpulan
 
-Unggah PDF melalui SIKOLA dengan nama **NIM_Nama_TugasBesar.pdf** setelah identitas benar dan hasil aktual diperbarui. Rubrik meminta tautan repositori GitHub/GitLab; ZIP ini menyediakan sumber untuk diunggah, tetapi belum ada repositori daring yang dibuat. Buat repositori milik peneliti dan unggah kode, prompt, config tanpa key, serta data mentah yang aman dipublikasikan. Jangan unggah API key, riwayat pribadi, atau data peserta. Tenggat **Senin, 26 Oktober 2026**; rubrik memberikan15menit presentasi dan10menit tanya jawab.
